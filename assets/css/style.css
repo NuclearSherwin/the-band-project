@@ -1,0 +1,378 @@
+:root {
+    --primary-color: #000;
+}
+
+
+/* Header style */
+
+.header__wrapper {
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    background-color: var(--primary-color);
+}
+
+.header__nav-item {
+    position: relative;
+    display: inline-block;
+}
+
+.header__nav-items {
+    list-style-type: none;
+    padding: 15px;
+}
+
+.header__nav-item-detail {
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 12px 24px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.header__nav-item-detail:hover {
+    background-color: rgb(204, 204, 204);
+    color: var(--primary-color);
+}
+
+.header__nav-dropdown-content {
+    position: absolute;
+    display: none;
+    margin-top: 7px;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    cursor: pointer;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.header__nav-item:hover .header__nav-dropdown-content {
+    display: block;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.header__dropdown-content-item {
+    display: block;
+    cursor: pointer;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header__dropdown-content-item:hover {
+    background-color: rgb(196, 196, 196);
+    color: var(--primary-color);
+}
+
+.header__nav-search {
+    float: right !important;
+}
+
+.header__nav-search-icon:hover {
+    background-color: red;
+    color: #fff;
+}
+
+.header__nav-search-icon {
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    align-self: center;
+}
+
+
+/* --------------------------------- */
+
+.container {
+    position: relative;
+    margin-top: 47px;
+}
+
+.container__slider_wrapper {
+    align-items: center;
+}
+
+.container__slider-imgNY {
+    width: 100%;
+    position: relative;
+}
+
+.container__slider-img-description {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 70px;
+}
+
+.header__nav_item_search-icon {
+    position: relative;
+    top: 3.9px;
+}
+
+
+/* the band */
+
+#band__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.band__wrapper-description {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.band__wrapper-description h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.band__wrapper-description p i {
+    text-align: center !important;
+}
+
+.band__wrapper-description p {
+    font-size: 18px;
+    text-align: justify;
+    color: black;
+}
+
+.band__wrapper-img {
+    display: flex;
+    padding: 32px;
+    text-align: center;
+}
+
+.band__wrapper-img img {
+    width: 60%;
+    border-radius: 5px;
+}
+
+.band__wrapper-img p {
+    text-align: center;
+}
+
+#tourdates {
+    background-color: #000;
+    margin-bottom: 25px;
+}
+
+.tourdates__tittle h1,
+p {
+    text-align: center;
+    color: white;
+}
+
+.tourdates__tittle p {
+    font-style: italic;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tourdates__lists ul {
+    padding-left: 0px;
+}
+
+.tourdates__lists ul li {
+    color: black;
+    background-color: #fff;
+    border-bottom: 0.5px solid #000;
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+.tourdates__lists ul span {
+    background-color: red;
+    color: #fff;
+    padding: 3px;
+}
+
+.tourdates__tittle-remaining {
+    background-color: #000 !important;
+    color: #fff;
+    border-radius: 50%;
+    float: right;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.tourdates__countries-img img {
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+
+.tourdates__countries-img img:hover {
+    -webkit-filter: brightness(60%);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.tourdates__countries {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.tourdates__countries-description h3,
+p {
+    text-align: center;
+    color: #000;
+}
+
+.tourdates__countries-button {
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    margin: 10 0px;
+}
+
+.tourdates__countries-button:hover {
+    background-color: rgb(216, 216, 216);
+    color: #000;
+}
+
+.tourdates__countries-description {
+    padding: 15px;
+}
+
+.tourdates__country {
+    background-color: rgb(235, 235, 235);
+}
+
+.tourdates_countries-wraper {
+    margin: 0px;
+    background-color: #000;
+}
+
+.tourdates__tickets {
+    max-width: 800px;
+    margin: 0 8px;
+}
+
+.tourdates__wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    /* position adjust later */
+    position: relative;
+    top: 50px;
+}
+
+.tourdates_countries-wraper {
+    margin-bottom: 100px;
+    padding: 0 8px;
+}
+
+.contact__table-tittle {
+    text-align: center;
+    color: #000;
+}
+
+.contact__table {
+    max-width: 786px;
+}
+
+#contact__wrapper {
+    margin-top: 80px;
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.contact__table-tittle i {
+    position: relative;
+    top: 12px;
+}
+
+.contact__table-wrapper {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.contact_table-input-info-group {
+    display: flex;
+}
+
+.contact__table-input-info {
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 165px;
+    margin-right: 252px;
+}
+
+.input1 input {
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+
+.input2 input {
+    padding: 10px 5px;
+}
+
+.input3 input {
+    padding: 10px 117px;
+    margin-top: 15px;
+}
+
+.contact__table-button-info button {
+    padding: 10px 20px;
+    margin-left: 15px;
+    position: relative;
+    margin-top: 13px;
+    background-color: #000;
+    color: white;
+    left: 75.5%;
+}
+
+.contact__table-button-info button:hover {
+    background-color: rgb(216, 216, 216);
+    color: #000;
+}
+
+.map__img img {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 12px;
+}
+
+.footer__description {
+    margin-bottom: 60px;
+}
+
+.footer__icons ion-icon {
+    margin-right: 2px;
+    font-size: 25px;
+    opacity: 0.60;
+}
+
+.footer__description p {
+    color: gray;
+}

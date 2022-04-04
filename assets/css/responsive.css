@@ -1,0 +1,82 @@
+/* Mobile & Tablet */
+
+@media (max-width: 63.9375em) {}
+
+
+/* Tablet */
+
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+
+
+/* Mobile */
+
+@media (max-width: 46.1875em) {
+    /* band image */
+    .band__wrapper-img {
+        display: block;
+        padding: 32px;
+        text-align: center;
+    }
+    .band_wrapper-img1 p {
+        margin-bottom: 15px;
+    }
+    .band_wrapper-img2 p {
+        margin-bottom: 15px;
+    }
+    .band_wrapper-img3 p {
+        margin-bottom: 15px;
+    }
+    .band_wrapper-img1 img {
+        margin-bottom: 15px;
+    }
+    .band_wrapper-img2 img {
+        margin-bottom: 15px;
+    }
+    .band_wrapper-img3 img {
+        margin-bottom: 15px;
+    }
+    .tourdates__countries {
+        display: block;
+        align-items: center;
+    }
+    .tourdates_countries-wraper {
+        max-width: 100%;
+    }
+    .contact_table-input-info-group {
+        display: block;
+    }
+    .input1 input {
+        padding-right: 115px;
+    }
+    .input2 {
+        margin-right: 0px;
+    }
+    .input2 input {
+        padding-right: 125px;
+    }
+    .input3 {
+        display: block;
+        margin-top: 0px;
+    }
+    .input3 input {
+        margin-top: 10px;
+        padding-right: 0px;
+        padding: 10px 65px;
+    }
+    .contact__table-wrapper {
+        display: block;
+    }
+    .contact__table-input-info {
+        left: 77px;
+    }
+    .contact__table-button-info {
+        position: relative;
+        right: 117px;
+    }
+    .contact__table-button-info button {
+        left: 68.5%;
+    }
+    .header__nav-item:not(:first-child) {
+        display: none;
+    }
+}
